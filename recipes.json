@@ -1,0 +1,1543 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "food",
+        "type": "ContentType",
+        "createdAt": "2021-10-05T13:53:11.413Z",
+        "updatedAt": "2021-10-11T12:08:57.328Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-10-11T12:08:57.328Z",
+        "firstPublishedAt": "2021-10-05T13:53:11.997Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Recipes",
+      "description": "Recipes",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "blogPost",
+        "type": "ContentType",
+        "createdAt": "2021-10-06T14:37:26.855Z",
+        "updatedAt": "2021-10-11T12:29:03.359Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-10-11T12:29:03.359Z",
+        "firstPublishedAt": "2021-10-06T14:37:27.262Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0FRM7DFAPmo1chI8tZCzu1"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0FRM7DFAPmo1chI8tZCzu1"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0FRM7DFAPmo1chI8tZCzu1"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Blogpost",
+      "description": "Blogpost",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "blogImages",
+          "name": "BlogImage",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "grgx84w34y4y",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2021-10-05T13:53:12.256Z",
+        "createdBy": {
+          "sys": {
+            "id": "15nD7W6BZo4u04x9o4TJOe",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-10-11T12:08:58.542Z",
+        "updatedBy": {
+          "sys": {
+            "id": "15nD7W6BZo4u04x9o4TJOe",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "food",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "grgx84w34y4y",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 8,
+        "createdAt": "2021-10-06T14:37:27.802Z",
+        "createdBy": {
+          "sys": {
+            "id": "0FRM7DFAPmo1chI8tZCzu1",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-10-11T12:29:04.124Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0FRM7DFAPmo1chI8tZCzu1",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blogPost",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "blogImages",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "WUijBF26ykqJvyNLnSw7u",
+        "type": "Entry",
+        "createdAt": "2021-10-05T13:57:01.958Z",
+        "updatedAt": "2021-10-12T20:20:00.862Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2021-10-12T20:20:00.862Z",
+        "firstPublishedAt": "2021-10-05T14:00:53.436Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "food"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Hamburger Royal TS"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "64iEtM3T32ymnHvXmyoyPn"
+            }
+          }
+        },
+        "description": {
+          "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        },
+        "slug": {
+          "en-US": "Food_1"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "MgFDhlnF858jE2fs0leXM",
+        "type": "Entry",
+        "createdAt": "2021-10-05T14:01:25.147Z",
+        "updatedAt": "2021-10-12T20:15:59.369Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2021-10-12T20:15:59.369Z",
+        "firstPublishedAt": "2021-10-05T14:02:34.216Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "food"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Sponge cake"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5E6ElcS1DiRv2tL4g6TwBD"
+            }
+          }
+        },
+        "description": {
+          "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        },
+        "slug": {
+          "en-US": "Food_2"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "3ci6eVqs4bW7JTJHicSVbo",
+        "type": "Entry",
+        "createdAt": "2021-10-05T14:02:39.311Z",
+        "updatedAt": "2021-10-12T20:14:10.061Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2021-10-12T20:14:10.061Z",
+        "firstPublishedAt": "2021-10-05T14:03:32.559Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "food"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Pork with vegetables"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "a4sfMG4VUE9BUzt0Me9aK"
+            }
+          }
+        },
+        "description": {
+          "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        },
+        "slug": {
+          "en-US": "Food_3"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "39I2r5b0UBO7vGC3s4vkDE",
+        "type": "Entry",
+        "createdAt": "2021-10-06T14:38:34.146Z",
+        "updatedAt": "2021-10-11T12:29:28.349Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-10-11T12:29:28.349Z",
+        "firstPublishedAt": "2021-10-06T14:50:37.709Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0FRM7DFAPmo1chI8tZCzu1"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0FRM7DFAPmo1chI8tZCzu1"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0FRM7DFAPmo1chI8tZCzu1"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Gyro: An Ancient Greek Street Food"
+        },
+        "blogImages": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "Fnhzuyi54pyw4tBd8vSmc"
+            }
+          }
+        },
+        "content": {
+          "en-US": "Gyro, pronounced “GHEE-ro” in Greek comes from the Greek word “gheereezo,” which means to turn. As mentioned above, it’s a stacked rotating pile of thinly sliced meat, either lamb, pork, beef, or some combination thereof, with latter-day renditions that include chicken and even fish. As the tightly packed stack roasts upright, the layers meld together and the grill person manning the gyro rotisserie cuts off paper-thin slices, which he or she fixes in a pita wrap with tomatoes, raw red onions, parsley or lettuce, Greek yogurt or tzatziki, and sometimes fried potatoes and a sprinkling of paprika or cayenne pepper.\n\nGyro is the poster girl, so to speak, of Greek fast food, even though it may or may not be 100% Greek. It has a surprisingly long and, pun intended, rotating history.\n\nThe gyro as we know it more or less today first arrived in Greece in 1922, with the hundreds of thousands of Greek and Armenian refugees from Asia Minor (present-day Turkey). Most came from Constantinople (Istanbul) and Smyrna (Ismir). The best gyro masters were Armenian, or so the legend goes. As the refugees began to settle in their newfound homeland, many became merchants. They opened small shops, among which were the small holes in the wall on every street corner selling gyro. After WWII, gyro started to travel west following the immigration patterns of the Greeks themselves, so shops began popping up across Europe, in the States, and Australia. It became one of the first global fast foods, although no such label could really describe it at the time because most shops were mom-and-pop run."
+        },
+        "slug": {
+          "en-US": "gyro"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "3z70BXfQRXYvexB2RvXRa0",
+        "type": "Entry",
+        "createdAt": "2021-10-06T14:45:44.357Z",
+        "updatedAt": "2021-10-11T12:29:44.725Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 26,
+        "publishedAt": "2021-10-11T12:29:44.725Z",
+        "firstPublishedAt": "2021-10-06T14:53:24.121Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 27,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "food"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Ukrainian Salat Vinaigrette (Beet Salad)"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "37wOu7ryh8qH8eFjb4Knxd"
+            }
+          }
+        },
+        "description": {
+          "en-US": "__Ingredients__\n\n- 1 pound beets\n- 1 pound carrots\n- 1 pound potatoes\n- 2 large dill pickles, diced\n- 1 onion, minced\n- 1 (8 ounce) can peas, drained\n- 2 tablespoons olive oil\n- ½ teaspoon ground black pepper\n- 1 tablespoon chopped fresh parsley (Optional)\n½ teaspoon salt\n\n__Directions__\n\n__Step 1__\nPlace the beets into a large pot and cover with water. Bring to a boil over high heat, then reduce heat to medium-low, cover, and simmer for about 20 minutes. Add the carrots and potatoes. Boil for another 10 minutes, then cover the pot and leave overnight.\n\n__Step 2__\nThe next day, peel and dice the beets, carrots, and potatoes into small, even pieces. Place the vegetables in a large bowl. Stir in the pickles, onion, peas, olive oil, salt, and pepper. Garnish with parsley before serving.\n\n__*Per Serving:*__ : 68 calories; protein 1.6g; carbohydrates 12g; fat 1.9g; sodium 337.3mg. \n\n1. Prep:30 mins\n2. Cook:30 mins\n3. Additional:8 hrs\n4. Total:8 hrs 60 mins\n5. Servings:16\n6. Yield:16 servings__"
+        },
+        "slug": {
+          "en-US": "ukrainian_salat"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "368TQluH1WGdSzjR4Q08is",
+        "type": "Entry",
+        "createdAt": "2021-10-06T15:10:17.239Z",
+        "updatedAt": "2021-10-11T14:37:24.473Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-10-11T14:37:24.473Z",
+        "firstPublishedAt": "2021-10-06T15:12:30.643Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "food"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Barbarella's German Pancakes"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "PvcDLjpOXsXkMTVbT6XXT"
+            }
+          }
+        },
+        "description": {
+          "en-US": "__Ingredients__\n\n- 2 eggs\n- 2 tablespoons white sugar\n- 3 tablespoons all-purpose flour\n- ¾ cup milk\n\n__Directions__\n\n__Step 1__\nPlace the eggs, sugar, flour and milk into the container of a blender. Process until smooth on low speed.\n\n__Step 2__\nHeat a large skillet or griddle over medium heat. Pour batter about 1/4 cup at a time (or more for larger pancakes). Tilt pan to achieve a round shape. Heat until golden, then flip and brown on the other side. Serve immediately with syrup, or fresh berries and whipped cream.\n\n__*Per Serving:*__ 104 calories; protein 5.3g; carbohydrates 13.1g; fat 3.4g; cholesterol 96.7mg; sodium 53.9mg.\n\n1. Prep:5 mins\n2. Cook:10 mins\n3. Total:15 mins\n4. Servings:4\n5. Yield:4 servings"
+        },
+        "slug": {
+          "en-US": "pancakes"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "4X0EDLS4sL9LNIqzxQfm0n",
+        "type": "Entry",
+        "createdAt": "2021-10-06T15:14:44.166Z",
+        "updatedAt": "2021-10-11T12:09:50.575Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-10-11T12:09:50.575Z",
+        "firstPublishedAt": "2021-10-06T15:16:51.743Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "food"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Easy Chicken and Dumplings with Vegetables"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "11ar2VaDOQ56djOSdXqY68"
+            }
+          }
+        },
+        "description": {
+          "en-US": "__Ingredients__\n\n- 8 cups water\n- 2 cups chopped baby carrots\n- 1 large onion, chopped\n- 4 stalks celery, chopped\n- 2 tablespoons dried thyme\n- 1 tablespoon dried rosemary\n- 2 teaspoons salt\n- 1 teaspoon ground black pepper\n- 4 skinless, boneless chicken breast halves, chopped\n- 1 (10 ounce) can refrigerated biscuit dough, separated and chopped\n- \n__Directions__\n\n__Step 1__\nCombine water, carrots, onion, celery, thyme, rosemary, salt, and black pepper in a large pot; bring to a boil. Reduce heat and simmer until vegetables are tender, about 15 minutes. Add chicken to soup and cook until no longer pink in the center, about 10 minutes.\n\n__Step 2__\nDrop biscuit pieces into soup and cook until dumplings are cooked through, 10 to 20 minutes.\n\n__*Per Serving:*__ 160 calories; protein 11.3g; carbohydrates 17.5g; fat 5g; cholesterol 23.7mg; sodium 796.6mg.\n\n1. Prep:25 mins\n2. Cook:35 mins\n3. Total:60 mins\n4. Servings:10\n5. Yield:10 servings\n"
+        },
+        "slug": {
+          "en-US": "easy_chicken"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "64iEtM3T32ymnHvXmyoyPn",
+        "type": "Asset",
+        "createdAt": "2021-10-05T13:58:41.479Z",
+        "updatedAt": "2021-10-05T14:00:18.478Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-10-05T14:00:18.478Z",
+        "firstPublishedAt": "2021-10-05T14:00:18.478Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Food 1"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/grgx84w34y4y/64iEtM3T32ymnHvXmyoyPn/0774d4dbc96375ee120d8eada45e52bd/hamburger-1238246_1280.jpg",
+            "details": {
+              "size": 231955,
+              "image": {
+                "width": 1280,
+                "height": 963
+              }
+            },
+            "fileName": "hamburger-1238246_1280.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "5E6ElcS1DiRv2tL4g6TwBD",
+        "type": "Asset",
+        "createdAt": "2021-10-05T14:01:49.114Z",
+        "updatedAt": "2021-10-05T14:02:27.525Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-10-05T14:02:27.525Z",
+        "firstPublishedAt": "2021-10-05T14:02:27.525Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Food 2"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/grgx84w34y4y/5E6ElcS1DiRv2tL4g6TwBD/9f055c4866b25ae9173c37a311bd2fe9/cake-1971552_1280.jpg",
+            "details": {
+              "size": 190695,
+              "image": {
+                "width": 1280,
+                "height": 870
+              }
+            },
+            "fileName": "cake-1971552_1280.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "a4sfMG4VUE9BUzt0Me9aK",
+        "type": "Asset",
+        "createdAt": "2021-10-05T14:02:53.917Z",
+        "updatedAt": "2021-10-05T14:03:23.276Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-10-05T14:03:23.276Z",
+        "firstPublishedAt": "2021-10-05T14:03:23.276Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Food 3"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/grgx84w34y4y/a4sfMG4VUE9BUzt0Me9aK/7baedf7fc99eacd57565225bccedcdd5/asparagus-2169305_1280.jpg",
+            "details": {
+              "size": 202735,
+              "image": {
+                "width": 1280,
+                "height": 853
+              }
+            },
+            "fileName": "asparagus-2169305_1280.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "Fnhzuyi54pyw4tBd8vSmc",
+        "type": "Asset",
+        "createdAt": "2021-10-06T14:43:16.824Z",
+        "updatedAt": "2021-10-06T14:50:30.829Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-10-06T14:50:30.829Z",
+        "firstPublishedAt": "2021-10-06T14:50:30.829Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0FRM7DFAPmo1chI8tZCzu1"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0FRM7DFAPmo1chI8tZCzu1"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0FRM7DFAPmo1chI8tZCzu1"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Gyro: An Ancient Greek Street Food"
+        },
+        "description": {
+          "en-US": "Gyro"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/grgx84w34y4y/Fnhzuyi54pyw4tBd8vSmc/cb0777f2985fbccf4fe87e6b77c11e87/Gyro2-930x620.jpeg",
+            "details": {
+              "size": 90672,
+              "image": {
+                "width": 930,
+                "height": 620
+              }
+            },
+            "fileName": "Gyro2-930x620.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "37wOu7ryh8qH8eFjb4Knxd",
+        "type": "Asset",
+        "createdAt": "2021-10-06T14:48:49.563Z",
+        "updatedAt": "2021-10-06T14:49:51.045Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-10-06T14:49:51.045Z",
+        "firstPublishedAt": "2021-10-06T14:49:51.045Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Ukrainian Salat Vinaigrette (Beet Salad)"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/grgx84w34y4y/37wOu7ryh8qH8eFjb4Knxd/3dbe82895033995cfaa1011810e9257e/Salate.jpeg",
+            "details": {
+              "size": 72113,
+              "image": {
+                "width": 700,
+                "height": 500
+              }
+            },
+            "fileName": "Salate.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "PvcDLjpOXsXkMTVbT6XXT",
+        "type": "Asset",
+        "createdAt": "2021-10-06T15:10:23.704Z",
+        "updatedAt": "2021-10-06T15:10:55.611Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-10-06T15:10:55.611Z",
+        "firstPublishedAt": "2021-10-06T15:10:55.611Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Barbarella's German Pancakes"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/grgx84w34y4y/PvcDLjpOXsXkMTVbT6XXT/a2618b782004dd8aca960e4c94951196/Pancake.jpeg",
+            "details": {
+              "size": 85891,
+              "image": {
+                "width": 700,
+                "height": 500
+              }
+            },
+            "fileName": "Pancake.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "id": "11ar2VaDOQ56djOSdXqY68",
+        "type": "Asset",
+        "createdAt": "2021-10-06T15:15:06.372Z",
+        "updatedAt": "2021-10-06T15:15:45.871Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-10-06T15:15:45.871Z",
+        "firstPublishedAt": "2021-10-06T15:15:45.871Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3WJkhFoRIUcsMNFKktXnDO"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Easy Chicken and Dumplings with Vegetables"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/grgx84w34y4y/11ar2VaDOQ56djOSdXqY68/719d31157ed0a8d7f6a20a1031d84799/Soupe.jpeg",
+            "details": {
+              "size": 68961,
+              "image": {
+                "width": 700,
+                "height": 500
+              }
+            },
+            "fileName": "Soupe.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "4UMdttsFMBCxVmgcvU7BNf",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "a8f80bca-7eb0-41a7-837f-3237cf4ee8f3"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "createdAt": "2021-10-04T15:49:49Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "updatedAt": "2021-10-04T15:49:49Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "4UOs5tiCxLKvwCtmsx1Lrr",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "grgx84w34y4y"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "createdAt": "2021-10-04T15:49:49Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "15nD7W6BZo4u04x9o4TJOe"
+          }
+        },
+        "updatedAt": "2021-10-04T15:49:49Z"
+      }
+    }
+  ]
+}
